@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANY</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="navbar" class="header">
+  <div class="container header-content">
+    <!-- Logo como imagen -->
+    <a href="index.html" class="logo">
+      <img src="img/LOGO_MANY-removebg-preview.png" alt="Logo Etiquetas Premium">
+    </a>
+
+  
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="galeria.html">Galería</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+<br>
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Etiquetas que dan identidad a tu marca</h2>
+    <p>Especialistas en etiquetas tejidas, hang tag y stikers.</p>
+    <a href="contacto.html" class="btn">Solicita una cotización</a>
+  </section>
+
+<section id="contacto" class="contacto-section">
+  <div class="container">
+    <h2>Contáctanos</h2>
+    <p>Estamos listos para atenderte. Completa el formulario o contáctanos directamente.</p>
+
+    <div class="contacto-grid">
+
+    <!-- Formulario -->
+<div class="contacto-form">
+  <form id="form-contacto" action="https://formspree.io/f/xkgveboa" method="POST">
+
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="correo" placeholder="Tu correo" required>
+    <input type="tel" name="telefono" placeholder="Teléfono" required>
+
+    <select name="tipo" required>
+      <option value="">Tipo de consulta</option>
+      <option value="cotizacion">Cotización</option>
+      <option value="informacion">Información</option>
+      <option value="reclamo">Reclamo</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <!-- Campo de cantidad de mil en mil -->
+    <label for="cantidad">Cantidad (mil en mil)</label>
+    <input type="number" id="cantidad" name="cantidad" min="1000" step="1000" value="1000" required>
+
+    <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+    <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+  </form>
+</div>
+
+
+      <!-- Información de contacto -->
+      <div class="contacto-info">
+        <h3>Información directa</h3>
+        <p>Teléfono: <a href="tel:+50223099599">📞 502+ 2309-9599</a></p>
+        <p>Email: <a href="mailto:ventas@many.com">✉ ventas@simany01.com <br> administracion@simany01.com</a></p>
+        <p>Horario: Lunes a Viernes 8:00 - 18:00</p>
+        <h3>Redes Sociales</h3>
+        <div class="social-icons">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/facebook-new.png" alt="Facebook"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/instagram-new.png" alt="Instagram"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/twitterx.png" alt="X"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+
+        <h3>Ubicación</h3>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.3906315310235!2d-90.62004197110387!3d14.527681559750057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589099b1dcd8915%3A0x37aca9c97f81da90!2sCajas%20Automaticas%20Barcenas%20Villa%20Nueva!5e0!3m2!1ses-419!2sgt!4v1757693319139!5m2!1ses-419!2sgt" 
+                  width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <h3>Acciones rápidas</h3>
+        <a href="contacto.html" class="btn-cotizar">Solicitar Cotización</a>
+        <a href="tel:+50223099599" class="btn-llamar">Llamar Ahora</a>
+        <a href="https://wa.me/+502 3028 2353" class="btn-whatsapp">WhatsApp</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+ <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Columna de enlaces -->
+      <div class="footer-column">
+        <h4>Enlaces útiles</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="terminos y condiciones.html">Términos y condiciones</a></li>
+          <li><a href="#">Accesibilidad</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna de programas -->
+      <div class="footer-column">
+        <h4>Programas</h4>
+        <ul>
+          <li><a href="#">Sostenibilidad</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna de métodos de pago -->
+     <div class="footer-column">
+  <h4>Métodos de pago</h4>
+  <div class="payment-icons">
+    <img src="img/bi.png" alt="Banco Industrial">
+    <img src="img/banrrural.png" alt="Banrural">
+    <img src="img/bancopromerica.png" alt="Promerica">
+    
+  </div>
+</div>
+
+      <!-- Columna de redes sociales -->
+      <div class="footer-column">
+        <h4>Síguenos</h4>
+        <div class="social-icons">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/facebook-new.png" alt="Facebook"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/instagram-new.png" alt="Instagram"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/twitterx.png" alt="X"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/pinterest--v1.png" alt="Pinterest"></a>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- Derechos -->
+    <div class="footer-bottom">
+      © 2001-2025 TuEmpresa.
+    </div>
+  </footer>
+  <script src="script.js">
+      // Lee el parámetro "producto" de la URL
+    const params = new URLSearchParams(window.location.search);
+    const producto = params.get("producto");
+
+    if (producto) {
+      document.getElementById("producto").value = producto;
+    }
+  </script>
+</body>
+</html>
